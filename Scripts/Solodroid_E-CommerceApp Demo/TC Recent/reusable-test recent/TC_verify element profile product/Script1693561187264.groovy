@@ -17,18 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/btn_cart'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Recent/img_product'), 0)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/btn_share'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Recent/txt_price'), 0)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/img_profile-product'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Recent/txt_product'), 0)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/txt_layout'), 0)
 
-Mobile.tap(findTestObject('General/btn_recent'), 0)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/txt_title product'), 0)
 
-WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/TC Recent/reusable-test recent/TC_verify element recent'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/txt_price'), 0)
 
-Mobile.tap(findTestObject('Recent/img_product'), 0)
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/txt_stock'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/txt_desc'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Recent/Profile Product/btn_add to cart'), 0)
 
