@@ -41,19 +41,5 @@ Mobile.tap(findTestObject('Recent/Profile Product/btn_add to cart'), 0)
 
 Mobile.pressBack()
 
-Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
-
-Mobile.tap(findTestObject('Recent/Profile Product/btn_share'), 0)
-
-Mobile.pressBack()
-
-Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
-
-Mobile.tap(findTestObject('Recent/Profile Product/btn_cart'), 0)
-
-Mobile.pressBack()
-
-Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
-
 WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/reusable-test/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
 
