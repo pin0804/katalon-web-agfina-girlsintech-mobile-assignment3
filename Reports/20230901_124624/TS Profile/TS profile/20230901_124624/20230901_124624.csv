@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS profile,,,,2023-09-01 12:46:28,2023-09-01 12:48:08,1m - 40.178s,FAILED
+,,,,,,,
+Test Cases/Solodroid_E-CommerceApp Demo/TC Profile/TC_profile,,,,2023-09-01 12:46:28,2023-09-01 12:47:26,58.016s,FAILED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:46:29,2023-09-01 12:46:50,21.604s,PASSED
+"tap(findTestObject(""General/btn_profile""), 0)",,,,2023-09-01 12:46:50,2023-09-01 12:46:54,4.211s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/TC Profile/reusable-test-profile/TC Verify Element Profile""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:46:54,2023-09-01 12:47:26,31.705s,FAILED
+,,,,,,,
+Test Cases/Solodroid_E-CommerceApp Demo/TC Profile/TC_editprofile,,,,2023-09-01 12:47:26,2023-09-01 12:48:08,41.828s,FAILED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:47:26,2023-09-01 12:47:37,10.366s,PASSED
+"tap(findTestObject(""General/btn_profile""), 0)",,,,2023-09-01 12:47:37,2023-09-01 12:48:08,31.163s,FAILED

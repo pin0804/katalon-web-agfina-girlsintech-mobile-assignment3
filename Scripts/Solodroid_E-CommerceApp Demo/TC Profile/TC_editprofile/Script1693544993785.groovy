@@ -24,6 +24,8 @@ Mobile.tap(findTestObject('General/btn_profile'), 0)
 WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/TC Profile/reusable-test-profile/TC Verify Element Profile'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('Profile/btn_EDIT'), 0)
+
 Mobile.tap(findTestObject('Profile/btn_EDIT'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Profile/Edit Profile/txt_Name'), 0)
@@ -31,7 +33,7 @@ Mobile.waitForElementPresent(findTestObject('Profile/Edit Profile/txt_Name'), 0)
 WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/TC Profile/reusable-test-profile/TC Verify Element Edit Profile'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Profile/Edit Profile/EditText Name/EditText - Your Name'), 0)
+Mobile.tap(findTestObject('Profile/Edit Profile/txt_Name'), 0)
 
 Mobile.setText(findTestObject('Profile/Edit Profile/EditText Name/EditText - Your Name'), nametext, 0)
 
