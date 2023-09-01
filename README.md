@@ -4,7 +4,16 @@ This is a project created for the Mobile Automation Testing assignment using Kat
 
 ## Assignment Description
 
-This task is about automating the testing of a mobile application using Katalon Studio and Appium. The goal is to verify the core functionalities of the SOLOCOMMERCE application.
+This task is about automating the testing of a mobile application using Katalon Studio and Appium. The goal is to verify the core functionalities of the SOLOCOMMERCE application, which include:
+
+- **Profile Feature**: This feature is responsible for user profile management. Test cases will be created to ensure that users can access and modify their profile information.
+
+- **Help Feature**: This feature provides user assistance and support. Test cases will be created to validate that users can access help content and receive assistance when needed.
+
+- **Recent Feature**: This feature displays recent activity or items. Test cases will be developed to verify that recent items or activities are displayed accurately.
+
+There will be a total of 2 test cases for each feature, resulting in a total of 6 test cases. These test cases will be organized into 3 test suites, one for each feature.
+
 
 ## Installation
 
