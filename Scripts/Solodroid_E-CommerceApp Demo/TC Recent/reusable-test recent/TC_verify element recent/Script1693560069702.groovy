@@ -17,17 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Recent/title - E-Commerce Android App'), 0)
+Mobile.verifyElementVisible(findTestObject('Help/title - Help'), 0)
 
 Mobile.verifyElementVisible(findTestObject('General/btn_cart'), 0)
 
 Mobile.verifyElementVisible(findTestObject('General/btn_search'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Recent/img_product'), 0)
+Mobile.verifyElementVisible(findTestObject('Help/btn_how to order'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Recent/txt_product'), 0)
+Mobile.verifyElementVisible(findTestObject('Help/btn_payment'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Recent/txt_price'), 0)
+Mobile.verifyElementVisible(findTestObject('Help/btn_shipping'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Help/btn_profile'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Help/btn_contact us'), 0)
 
 Mobile.verifyElementVisible(findTestObject('General/btn_help'), 0)
 
