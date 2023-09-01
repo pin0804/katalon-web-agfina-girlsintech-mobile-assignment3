@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Help,,,,2023-09-01 16:08:41,2023-09-01 16:09:59,1m - 17.794s,PASSED
+,,,,,,,
+Test Cases/Solodroid_E-CommerceApp Demo/TC Help/TC_help,,,,2023-09-01 16:08:41,2023-09-01 16:09:26,45.130s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing""), [:], STOP_ON_FAILURE)",,,,2023-09-01 16:08:42,2023-09-01 16:09:02,20.498s,PASSED
+"tap(findTestObject(""General/btn_help""), 0)",,,,2023-09-01 16:09:02,2023-09-01 16:09:07,4.599s,PASSED
+"waitForElementPresent(findTestObject(""Help/title - Help""), 0)",,,,2023-09-01 16:09:07,2023-09-01 16:09:08,0.920s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/TC Help/reusable-test help/TC_verify element help""), [:], STOP_ON_FAILURE)",,,,2023-09-01 16:09:08,2023-09-01 16:09:11,3.362s,PASSED
+"waitForElementPresent(findTestObject(""Help/title - Help""), 0)",,,,2023-09-01 16:09:11,2023-09-01 16:09:11,0.198s,PASSED
+"tap(findTestObject(""Help/btn_how to order""), 0)",,,,2023-09-01 16:09:11,2023-09-01 16:09:12,0.232s,PASSED
+"waitForElementPresent(findTestObject(""Help/How to Order/title - How to order""), 0)",,,,2023-09-01 16:09:12,2023-09-01 16:09:14,2.148s,PASSED
+"verifyElementVisible(findTestObject(""Help/How to Order/title - How to order""), 0)",,,,2023-09-01 16:09:14,2023-09-01 16:09:14,0.229s,PASSED
+"verifyElementVisible(findTestObject(""Help/How to Order/text_headline""), 0)",,,,2023-09-01 16:09:14,2023-09-01 16:09:14,0.158s,PASSED
+"verifyElementVisible(findTestObject(""Help/How to Order/text_body""), 0)",,,,2023-09-01 16:09:14,2023-09-01 16:09:14,0.204s,PASSED
+pressBack(),,,,2023-09-01 16:09:14,2023-09-01 16:09:15,0.202s,PASSED
+"waitForElementPresent(findTestObject(""Help/title - Help""), 0)",,,,2023-09-01 16:09:15,2023-09-01 16:09:15,0.623s,PASSED
+"tap(findTestObject(""Help/btn_payment""), 0)",,,,2023-09-01 16:09:15,2023-09-01 16:09:15,0.197s,PASSED
+"waitForElementPresent(findTestObject(""Help/Payment/title - Payment""), 0)",,,,2023-09-01 16:09:15,2023-09-01 16:09:17,1.917s,PASSED
+"verifyElementVisible(findTestObject(""Help/Payment/title - Payment""), 0)",,,,2023-09-01 16:09:17,2023-09-01 16:09:18,0.201s,PASSED
+"verifyElementVisible(findTestObject(""Help/Payment/text_body""), 0)",,,,2023-09-01 16:09:18,2023-09-01 16:09:18,0.201s,PASSED
+pressBack(),,,,2023-09-01 16:09:18,2023-09-01 16:09:18,0.145s,PASSED
+"tap(findTestObject(""Help/btn_shipping""), 0)",,,,2023-09-01 16:09:18,2023-09-01 16:09:19,0.714s,PASSED
+pressBack(),,,,2023-09-01 16:09:19,2023-09-01 16:09:20,1.507s,PASSED
+"tap(findTestObject(""General/btn_profile""), 0)",,,,2023-09-01 16:09:20,2023-09-01 16:09:21,0.818s,PASSED
+pressBack(),,,,2023-09-01 16:09:21,2023-09-01 16:09:22,0.815s,PASSED
+"tap(findTestObject(""Help/btn_contact us""), 0)",,,,2023-09-01 16:09:22,2023-09-01 16:09:23,1.024s,PASSED
+pressBack(),,,,2023-09-01 16:09:23,2023-09-01 16:09:25,2.296s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Close App""), [:], STOP_ON_FAILURE)",,,,2023-09-01 16:09:25,2023-09-01 16:09:26,1.297s,PASSED
+,,,,,,,
+Test Cases/Solodroid_E-CommerceApp Demo/TC Help/TC_help search,,,,2023-09-01 16:09:26,2023-09-01 16:09:59,32.303s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing""), [:], STOP_ON_FAILURE)",,,,2023-09-01 16:09:27,2023-09-01 16:09:44,17.132s,PASSED
+"tap(findTestObject(""General/btn_help""), 0)",,,,2023-09-01 16:09:44,2023-09-01 16:09:45,1.319s,PASSED
+"waitForElementPresent(findTestObject(""Help/title - Help""), 0)",,,,2023-09-01 16:09:45,2023-09-01 16:09:46,0.910s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/TC Help/reusable-test help/TC_verify element help""), [:], STOP_ON_FAILURE)",,,,2023-09-01 16:09:46,2023-09-01 16:09:49,2.938s,PASSED
+"waitForElementPresent(findTestObject(""Help/title - Help""), 0)",,,,2023-09-01 16:09:49,2023-09-01 16:09:49,0.215s,PASSED
+"tap(findTestObject(""General/btn_search""), 0)",,,,2023-09-01 16:09:49,2023-09-01 16:09:50,0.192s,PASSED
+"setText(findTestObject(""Help/EditText - Search""), searchvar, 0)",,,,2023-09-01 16:09:50,2023-09-01 16:09:52,2.525s,PASSED
+"tap(findTestObject(""Help/btn_delete""), 0)",,,,2023-09-01 16:09:52,2023-09-01 16:09:53,0.763s,PASSED
+"setText(findTestObject(""Help/EditText - Search""), searchvar, 0)",,,,2023-09-01 16:09:53,2023-09-01 16:09:55,2.175s,PASSED
+"tap(findTestObject(""Help/btn_list""), 0)",,,,2023-09-01 16:09:55,2023-09-01 16:09:56,0.758s,PASSED
+"waitForElementPresent(findTestObject(""Help/Payment/title - Payment""), 0)",,,,2023-09-01 16:09:56,2023-09-01 16:09:58,1.988s,PASSED
+pressBack(),,,,2023-09-01 16:09:58,2023-09-01 16:09:58,0.114s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Close App""), [:], STOP_ON_FAILURE)",,,,2023-09-01 16:09:58,2023-09-01 16:09:59,0.796s,PASSED

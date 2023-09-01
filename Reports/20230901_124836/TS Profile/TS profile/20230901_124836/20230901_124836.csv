@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS profile,,,,2023-09-01 12:48:40,2023-09-01 12:49:47,1m - 6.705s,FAILED
+,,,,,,,
+Test Cases/Solodroid_E-CommerceApp Demo/TC Profile/TC_profile,,,,2023-09-01 12:48:41,2023-09-01 12:48:50,9.783s,FAILED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:48:41,2023-09-01 12:48:50,9.329s,FAILED
+,,,,,,,
+Test Cases/Solodroid_E-CommerceApp Demo/TC Profile/TC_editprofile,,,,2023-09-01 12:48:50,2023-09-01 12:49:47,56.598s,FAILED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:48:51,2023-09-01 12:49:02,10.927s,PASSED
+"tap(findTestObject(""General/btn_profile""), 0)",,,,2023-09-01 12:49:02,2023-09-01 12:49:06,4.231s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/TC Profile/reusable-test-profile/TC Verify Element Profile""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:49:06,2023-09-01 12:49:10,4.159s,PASSED
+"tap(findTestObject(""Profile/btn_EDIT""), 0)",,,,2023-09-01 12:49:10,2023-09-01 12:49:10,0.253s,PASSED
+"waitForElementPresent(findTestObject(""Profile/Edit Profile/txt_Name""), 0)",,,,2023-09-01 12:49:10,2023-09-01 12:49:12,2.240s,PASSED
+"callTestCase(findTestCase(""Solodroid_E-CommerceApp Demo/TC Profile/reusable-test-profile/TC Verify Element Edit Profile""), [:], STOP_ON_FAILURE)",,,,2023-09-01 12:49:12,2023-09-01 12:49:16,3.912s,PASSED
+"tap(findTestObject(""Profile/Edit Profile/EditText Name/EditText - Your Name""), 0)",,,,2023-09-01 12:49:16,2023-09-01 12:49:47,30.513s,FAILED

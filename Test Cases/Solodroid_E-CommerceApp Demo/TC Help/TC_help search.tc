@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_help search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e85ade80-c672-4908-a8a0-6604b07c13ab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db5a4632-68b1-471c-b086-0a951463258c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Pay'</defaultValue>
+      <description></description>
+      <id>db5a4632-68b1-471c-b086-0a951463258c</id>
+      <masked>false</masked>
+      <name>searchvar</name>
+   </variable>
+</TestCaseEntity>
