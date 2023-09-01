@@ -64,5 +64,5 @@ Mobile.tap(findTestObject('Help/btn_contact us'), 0)
 
 Mobile.pressBack()
 
-Mobile.closeApplication()
+WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/reusable-test/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
 

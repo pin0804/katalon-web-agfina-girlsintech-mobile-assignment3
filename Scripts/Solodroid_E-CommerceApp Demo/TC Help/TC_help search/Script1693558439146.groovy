@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/reusable-test/Launch AUT-from existing'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('General/btn_help'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Help/title - Help'), 0)
+
+WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/TC Help/reusable-test help/TC_verify element help'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+Mobile.waitForElementPresent(findTestObject('Help/title - Help'), 0)
+
+Mobile.tap(findTestObject('General/btn_search'), 0)
+
+Mobile.setText(findTestObject('Help/EditText - Search'), searchvar, 0)
+
+Mobile.tap(findTestObject('Help/btn_delete'), 0)
+
+Mobile.setText(findTestObject('Help/EditText - Search'), searchvar, 0)
+
+Mobile.tap(findTestObject('Help/btn_list'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Help/Payment/title - Payment'), 0)
+
+Mobile.pressBack()
+
+WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/reusable-test/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
+
