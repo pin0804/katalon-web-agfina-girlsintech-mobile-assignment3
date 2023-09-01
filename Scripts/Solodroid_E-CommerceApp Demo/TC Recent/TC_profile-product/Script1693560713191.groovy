@@ -32,3 +32,28 @@ WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/TC Recent/reusable
 
 Mobile.tap(findTestObject('Recent/img_product'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
+
+WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/TC Recent/reusable-test recent/TC_verify element profile product'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Recent/Profile Product/btn_add to cart'), 0)
+
+Mobile.pressBack()
+
+Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
+
+Mobile.tap(findTestObject('Recent/Profile Product/btn_share'), 0)
+
+Mobile.pressBack()
+
+Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
+
+Mobile.tap(findTestObject('Recent/Profile Product/btn_cart'), 0)
+
+Mobile.pressBack()
+
+Mobile.waitForElementPresent(findTestObject('Recent/Profile Product/txt_layout'), 0)
+
+WebUI.callTestCase(findTestCase('Solodroid_E-CommerceApp Demo/reusable-test/Close App'), [:], FailureHandling.STOP_ON_FAILURE)
+
