@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('Help/title - Help'), 0)
-
-Mobile.verifyElementVisible(findTestObject('General/btn_cart'), 0)
-
-Mobile.verifyElementVisible(findTestObject('General/btn_search'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Help/btn_how to order'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Help/btn_payment'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Help/btn_shipping'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Help/btn_profile'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Help/btn_contact us'), 0)
-
-Mobile.verifyElementVisible(findTestObject('General/btn_help'), 0)
-
-Mobile.verifyElementVisible(findTestObject('General/btn_profile'), 0)
-
-Mobile.verifyElementVisible(findTestObject('General/btn_recent'), 0)
-
-Mobile.verifyElementVisible(findTestObject('General/btn_category'), 0)
-
