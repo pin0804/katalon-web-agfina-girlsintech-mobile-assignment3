@@ -1,31 +1,31 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 53243
+[35m[Appium][39m   port: 54402
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: /var/folders/1x/wj5dqxzs75z_yv5464ygh9rh0000gn/T//Katalon/Appium/Temp1693558583643
-[35m[Appium][39m   chromedriverPort: 53254
+[35m[Appium][39m   tmpDir: /var/folders/1x/wj5dqxzs75z_yv5464ygh9rh0000gn/T//Katalon/Appium/Temp1693559759413
+[35m[Appium][39m   chromedriverPort: 54416
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 53254
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53243
+[35m[Appium][39m   chromedriverPort: 54416
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:54402
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk","noReset":true,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":53273},"capabilities":{"firstMatch":[{"appium:app":"/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":53273,"appium:udid":"emulator-5554"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk","noReset":true,"deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":54430},"capabilities":{"firstMatch":[{"appium:app":"/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":54430,"appium:udid":"emulator-5554"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 472cb96f-3d63-41ea-9616-8dbf22947ebb
+[35m[BaseDriver][39m Session created with session id: e3dc560e-5a58-47de-9004-07c612f42890
 [35m[BaseDriver][39m Using local app '/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk'
 [35m[ADB][39m Found 1 'build-tools' folders under '/Users/agfinaaliarahma/.katalon/tools/android_sdk' (newest first):
 [35m[ADB][39m     /Users/agfinaaliarahma/.katalon/tools/android_sdk/build-tools/29.0.3
@@ -42,115 +42,86 @@
 [35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [35m[ADB][39m '/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk' is signed with a non-default certificate
 [35m[ADB][39m The application at '/Users/agfinaaliarahma/git/katalon-web-agfina-girlsintech-mobile-assignment3/APK/Solodroid_E-CommerceApp Demo_3.2.0.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[35m[ADB][39m The installation of 'Solodroid_E-CommerceApp Demo_3.2.0.apk' took 9904ms
+[35m[ADB][39m The installation of 'Solodroid_E-CommerceApp Demo_3.2.0.apk' took 8074ms
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
 [35m[UiAutomator2][39m Using UIAutomator2 server from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/Users/agfinaaliarahma/.nvm/versions/node/v18.17.1/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.solodroid.solomerce/com.solodroid.solomerce.activities.ActivitySplash and waiting for 'com.solodroid.solomerce/com.solodroid.solomerce.activities.ActivitySplash'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 472cb96f-3d63-41ea-9616-8dbf22947ebb added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m21910 ms - 1448[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session e3dc560e-5a58-47de-9004-07c612f42890 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m21261 ms - 1448[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb [39m[32m200[39m [90m29 ms - 1402[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890 [39m[32m200[39m [90m26 ms - 1402[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb [39m[32m200[39m [90m20 ms - 1402[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890 [39m[32m200[39m [90m33 ms - 1402[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (472cb96f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId c143200d-40c2-459a-936d-5640e50d5026 with 472cb96f-3d63-41ea-9616-8dbf22947ebb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source [39m[32m200[39m [90m144 ms - 3679[39m
+[35m[W3C (e3dc560e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 2ec0016a-7858-4fa2-8da3-75af4657fd3b with e3dc560e-5a58-47de-9004-07c612f42890
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/source [39m[32m200[39m [90m111 ms - 3679[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot [39m[32m200[39m [90m979 ms - 307050[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/screenshot [39m[32m200[39m [90m786 ms - 304282[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (472cb96f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId c143200d-40c2-459a-936d-5640e50d5026 with 472cb96f-3d63-41ea-9616-8dbf22947ebb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source [39m[32m200[39m [90m179 ms - 21795[39m
+[35m[W3C (e3dc560e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 2ec0016a-7858-4fa2-8da3-75af4657fd3b with e3dc560e-5a58-47de-9004-07c612f42890
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/source [39m[32m200[39m [90m584 ms - 34111[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot [39m[32m200[39m [90m456 ms - 139862[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/screenshot [39m[32m200[39m [90m1080 ms - 1356022[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'p' or . = 'p') and @resource-id = 'com.solodroid.solomerce:id/search_src_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m469 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'E-Commerce Android App' or . = 'E-Commerce Android App')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m391 ms - 139[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and @resource-id = 'com.solodroid.solomerce:id/search_plate' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m255 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.solodroid.solomerce:id/category_image' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m192 ms - 779[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.solodroid.solomerce:id/category_image"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m37 ms - 779[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.solodroid.solomerce:id/category_image\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m97 ms - 779[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Samsung Galaxy S10 - Black' or . = 'Samsung Galaxy S10 - Black') and @resource-id = 'com.solodroid.solomerce:id/product_name']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m175 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '899 USD' or . = '899 USD') and @resource-id = 'com.solodroid.solomerce:id/product_price']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m202 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'androidx.recyclerview.widget.RecyclerView' and @resource-id = 'com.solodroid.solomerce:id/recycler_view' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e3dc560e-5a58-47de-9004-07c612f42890/elements [39m[32m200[39m [90m193 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (472cb96f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId c143200d-40c2-459a-936d-5640e50d5026 with 472cb96f-3d63-41ea-9616-8dbf22947ebb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source [39m[32m200[39m [90m145 ms - 21321[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot [39m[32m200[39m [90m491 ms - 143558[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Search…' or . = 'Search…') and @resource-id = 'com.solodroid.solomerce:id/search_src_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m111 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/timeouts[39m
-[35m[HTTP][39m [90m{"implicit":1000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/timeouts [39m[32m200[39m [90m3 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Search…' or . = 'Search…') and @resource-id = 'com.solodroid.solomerce:id/search_src_text']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m130 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/element/00000000-0000-0041-7fff-ffff00000044/location[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (472cb96f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId c143200d-40c2-459a-936d-5640e50d5026 with 472cb96f-3d63-41ea-9616-8dbf22947ebb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/element/00000000-0000-0041-7fff-ffff00000044/location [39m[32m200[39m [90m21 ms - 77[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/element/00000000-0000-0041-7fff-ffff00000044/size[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (472cb96f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId c143200d-40c2-459a-936d-5640e50d5026 with 472cb96f-3d63-41ea-9616-8dbf22947ebb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/element/00000000-0000-0041-7fff-ffff00000044/size [39m[32m200[39m [90m18 ms - 86[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (472cb96f)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId c143200d-40c2-459a-936d-5640e50d5026 with 472cb96f-3d63-41ea-9616-8dbf22947ebb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/source [39m[32m200[39m [90m171 ms - 20939[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/screenshot [39m[32m200[39m [90m487 ms - 140228[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.RelativeLayout' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m111 ms - 395[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.RelativeLayout\")"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m73 ms - 395[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.solodroid.solomerce:id/search_close_btn' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb/elements [39m[32m200[39m [90m175 ms - 139[39m
+[35m[Appium][39m Removing session 472cb96f-3d63-41ea-9616-8dbf22947ebb from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/472cb96f-3d63-41ea-9616-8dbf22947ebb [39m[32m200[39m [90m773 ms - 14[39m
 [35m[HTTP][39m [90m[39m
